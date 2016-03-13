@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Guillaume/Documents/Cours/Computer design/Exercice2/tb_MIPSProcessor_3_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="constants" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_mipsprocessor_3" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/tb_mipsprocessor_3/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/processor_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_enable</obj_property>
+      <obj_property name="ObjectShortName">processor_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/counterreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counterreg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counterreg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/id_counterreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_counterreg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_counterreg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ex_counterreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_counterreg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_counterreg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/if_instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">if_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/id_instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ALU/in_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ALU/in_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/aluresult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/writebackreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writebackreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writebackreg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/mem_writebackreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_writebackreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_writebackreg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/RegisterFile/in_writereg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_writereg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">in_writereg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/RegisterFile/in_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/id_outdata1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">id_outdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_outdata1[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">id_outdata1RS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/id_outdata2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">id_outdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_outdata2[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">id_outdata2RT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ex_regdata1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_regdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_regdata1[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ex_regdata2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_regdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_regdata2[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/dmem_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/dmem_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_address[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/dmem_write_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_write_enable</obj_property>
+      <obj_property name="ObjectShortName">dmem_write_enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/ctrlhazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlhazard</obj_property>
+      <obj_property name="ObjectShortName">ctrlhazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_regdst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_regdst</obj_property>
+      <obj_property name="ObjectShortName">out_regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_branch</obj_property>
+      <obj_property name="ObjectShortName">out_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_memread</obj_property>
+      <obj_property name="ObjectShortName">out_memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_memtoreg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_memtoreg</obj_property>
+      <obj_property name="ObjectShortName">out_memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out_aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_memwrite</obj_property>
+      <obj_property name="ObjectShortName">out_memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_alusrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_alusrc</obj_property>
+      <obj_property name="ObjectShortName">out_alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_regwrite</obj_property>
+      <obj_property name="ObjectShortName">out_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/Controller/out_jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_jump</obj_property>
+      <obj_property name="ObjectShortName">out_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor_3/Processor/zeroflag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zeroflag</obj_property>
+      <obj_property name="ObjectShortName">zeroflag</obj_property>
+   </wvobject>
+</wave_config>
